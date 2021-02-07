@@ -1,33 +1,52 @@
-.description{
+.description {
   width: 819px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  /*верхнего, правого, нижнего и левого края.*/
-  margin:0 85px 0 50px;
- /* margin-right: 85px;*/
-  font-family: 'Open Sans';
+  margin: 0 85px 0 50px;
+  font-family: "Open Sans";
 }
-.container{
+.container {
   display: flex;
   width: 1590px;
   margin: 0 auto;
   margin-top: auto;
 }
-.title{
+.title {
   font-size: 60px;
   letter-spacing: 0.11em;
   padding-top: 20px;
   line-height: 180px;
   text-transform: uppercase;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 400;
 }
-p:last-of-type{
+p:last-of-type {
   padding-top: 25px;
 }
-.description span{
+.description span {
   font-size: 36px;
   margin-top: 45px;
+}
+
+@media (max-width: 1919px) and (min-width: 768px) {
+  .container {
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .title {
+    line-height: 140px;
+  }
+  .description {
+    margin: 0 35px 0 50px;
+  }
+  .container {
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+  p:first-of-type {
+    padding-top: 20px;
+  }
 }

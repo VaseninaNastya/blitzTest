@@ -13,3 +13,12 @@
 .underline_gray{
     border-bottom: 1px solid #bebebe;
 }
+
+@media (max-width: 1919px) and (min-width: 768px) {
+    .underline {
+        width: 634px;
+      }
+      .underline_gray{
+          width: 100%;
+      }
+  }

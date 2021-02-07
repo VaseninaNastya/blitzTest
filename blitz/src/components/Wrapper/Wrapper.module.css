@@ -1,17 +1,27 @@
-
-.wrapper{
-    height: 1080px;
-    width: 1920px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center
+.wrapper {
+  height: 1080px;
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 .wrapper__white {
   background: url("./img/Background.png"), center no-repeat;
   background-size: cover;
   color: #f1f1f1;
 }
-.wrapper_gray {
+.wrapper__gray {
   background-color: #ffffff;
+}
+@media (max-width: 1919px) and (min-width: 768px) {
+  .wrapper {
+    width: 768px;
+  }
+  .wrapper__white {
+      height: 911px;
+  }
+  .wrapper__gray{
+    height: 1587px;
+}
 }

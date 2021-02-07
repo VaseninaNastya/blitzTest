@@ -34,3 +34,19 @@
 .scrollDown svg {
     margin-top: 10px;
 }
+
+
+@media (max-width: 1919px) and (min-width: 768px) {
+    .scrollDown__white {
+        display: none;
+      }
+      .scrollDown__gray span{
+        padding-right: 0px;
+    }
+    .scrollDown span{
+        margin-top: 0px;
+    }
+    .scrollDown svg {
+        margin-bottom: 50px;
+    }
+  }
