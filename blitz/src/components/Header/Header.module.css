@@ -1,0 +1,15 @@
+.header {
+  height: 100px;
+  width: 100%;
+}
+.underline {
+  width: 1785px;
+  margin: 0 auto;
+  height: 100%;
+}
+.underline__white{
+    border-bottom: 1px solid #f1f1f1;
+}
+.underline_gray{
+    border-bottom: 1px solid #bebebe;
+}
