@@ -16,7 +16,7 @@ body {
   font-size: 24px;
   letter-spacing: 0.01em;
   line-height: 50px;
-  background-color: thistle;
+  background-color: white;
 }
 
 ul, li{
@@ -34,8 +34,5 @@ cursor: pointer;
 li{
   list-style: none;
 }
-/*svg
-{
- fill: currentColor;
-}*/
+
  
