@@ -1,6 +1,6 @@
 $titleStyle-font-family: "Open Sans";
 
-@mixin titleStyle{
+@mixin titleStyle {
   font-family: $titleStyle-font-family;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -35,14 +35,14 @@ $titleStyle-font-family: "Open Sans";
   p:last-of-type {
     padding-top: 25px;
   }
-  
-  .img{
+
+  .img {
     height: 700px;
     width: 771px;
     background: url("./img/Jason Wood.png"), center no-repeat;
     background-size: cover;
   }
-  
+
   @media (max-width: 1919px) and (min-width: 768px) {
     .container {
       width: 100%;
@@ -62,45 +62,39 @@ $titleStyle-font-family: "Open Sans";
     p:first-of-type {
       padding-top: 20px;
     }
-    .img{
+    .img {
       width: 100%;
       background-position: 1535px bottom;
-      background-size:auto;
+      background-size: auto;
       height: 696px;
     }
-  }
-  @media (max-width: 767px) {
-    .container {
-      width: 100%;
-      flex-wrap: wrap;
-      overflow: hidden;
-      margin-top: 0;
-      margin-bottom: auto;
-    }
-    .title {
-      font-size: 30px;
-      padding-top: 0px;
-      line-height: 120px;
-    }
-    .description {
-      font-size: 18px;
-      margin: 0 20px 0 35px;
-      span {
-        margin-top: 25px;
-        font-size: 18px;
+    @media (max-width: 767px) {
+      .container {
+        margin-top: 0;
+        margin-bottom: auto;
       }
-    }
-    p:last-of-type {
-      display: none;
-    }
-    p:first-of-type {
-      margin-top: -35px;
-    }
-    .img{
-      width: 100%;
-      background-position: 530px bottom;
-      background-size:auto;
-      height: 696px;
+      .title {
+        font-size: 30px;
+        padding-top: 0px;
+        line-height: 120px;
+      }
+      .description {
+        font-size: 18px;
+        margin: 0 20px 0 35px;
+        span {
+          margin-top: 25px;
+          font-size: 18px;
+        }
+      }
+      p:last-of-type {
+        display: none;
+      }
+      p:first-of-type {
+        margin-top: -35px;
+      }
+      .img {
+        background-position: 530px bottom;
+      }
     }
   }
 }
