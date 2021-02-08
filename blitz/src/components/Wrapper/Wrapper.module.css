@@ -14,10 +14,10 @@
 }
 
 .wrapper__gray {
-  background-color: #ffffff;
+  background-color: white;
 }
 
-@media (max-width: 1919px) and (min-width: 768px) {
+@media (max-width: 1919px) and (min-width: 767px) {
   .wrapper {
     width: 768px;
   }

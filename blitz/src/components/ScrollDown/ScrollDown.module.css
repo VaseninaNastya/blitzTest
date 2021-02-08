@@ -1,5 +1,7 @@
 .scrollDown {
   font-size: 18px;
+  font-family: "Open Sans";
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
@@ -7,8 +9,6 @@
   justify-content: center;
   height: 205px;
   width: 100%;
-  letter-spacing: 0.1em;
-  font-family: "Open Sans";
 }
 .scrollDown span {
   margin-top: 10px;
@@ -30,7 +30,7 @@
   margin-top: 10px;
 }
 
-@media (max-width: 1919px) and (min-width: 768px) {
+@media (max-width: 1919px) and (min-width: 767px) {
   .scrollDown__white {
     display: none;
   }

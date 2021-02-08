@@ -6,7 +6,7 @@
 
 $whiteTheme-color: white;
 $grayTheme-color: #bebebe;
-@media (min-width: 1920px) {
+
   .scrollDown {
     font-size: 18px;
     @include titleStyle;
@@ -37,7 +37,7 @@ $grayTheme-color: #bebebe;
     }
   }
 
-  @media (max-width: 1919px) and (min-width: 768px) {
+  @media (max-width: 1919px) and (min-width: 767px) {
     .scrollDown__white {
       display: none;
     }
@@ -54,10 +54,10 @@ $grayTheme-color: #bebebe;
         margin-bottom: 50px;
       }
     }
-    @media (max-width: 767px) {
-      .scrollDown {
-        display: none;
-      }
+  }
+  @media (max-width: 767px) {
+    .scrollDown {
+      display: none;
     }
   }
-}
+
