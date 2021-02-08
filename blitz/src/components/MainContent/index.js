@@ -1,12 +1,12 @@
 import React from "react";
 import s from "./MainContent.module.css";
-import Img from "./img/Jason Wood.png";
+
 
 const MainContent = () => {
   return (
     <>
       <div className={s.container}>
-        <img src={Img} />
+        <div className={s.img}></div>
         <div className={s.description}>
           <h2 className={s.title}>About Me</h2>
           <p>

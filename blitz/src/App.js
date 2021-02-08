@@ -9,7 +9,7 @@ function App() {
     <>
       <Wrapper colorTheme="true">
         <Header colorTheme="true">
-          <Menu fonts="true"/>
+          <Menu fonts="true" mobileMenu = "true"/>
         </Header>
         <ScrollDown  fonts = "true" children = "scroll down to see more"/>
       </Wrapper>

@@ -24,6 +24,7 @@
 
   @media (max-width: 767px) {
     .underline{
-        display: none;
+        border-bottom: none;
+        width: 100%;
     }
 }
