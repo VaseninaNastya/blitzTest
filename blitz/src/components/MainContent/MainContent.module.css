@@ -50,3 +50,31 @@ p:last-of-type {
     padding-top: 20px;
   }
 }
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: auto;
+  }
+  .title {
+    font-size: 30px;
+    padding-top: 0px;
+    line-height: 100px;
+  }
+  .description {
+    font-size: 18px;
+    margin: 0 20px 0 35px;
+  }
+  p:last-of-type {
+    display: none;
+  }
+  p:first-of-type {
+    margin-top: -20px;
+  }
+  .description span {
+    margin-top: 25px;
+    font-size: 18px;
+  }
+}
