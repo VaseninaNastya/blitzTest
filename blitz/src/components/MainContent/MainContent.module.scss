@@ -7,7 +7,7 @@ $titleStyle-font-family: "Open Sans";
   font-weight: 400;
   font-size: 60px;
 }
-@media (min-width: 1920px) {
+
   .description {
     width: 819px;
     display: flex;
@@ -43,7 +43,7 @@ $titleStyle-font-family: "Open Sans";
     background-size: cover;
   }
 
-  @media (max-width: 1919px) and (min-width: 768px) {
+  @media (max-width: 1919px) and (min-width: 767px) {
     .container {
       width: 100%;
       flex-wrap: wrap;
@@ -62,39 +62,45 @@ $titleStyle-font-family: "Open Sans";
     p:first-of-type {
       padding-top: 20px;
     }
-    .img {
+    .img{
       width: 100%;
       background-position: 1535px bottom;
-      background-size: auto;
+      background-size:auto;
       height: 696px;
     }
-    @media (max-width: 767px) {
-      .container {
-        margin-top: 0;
-        margin-bottom: auto;
-      }
-      .title {
-        font-size: 30px;
-        padding-top: 0px;
-        line-height: 120px;
-      }
-      .description {
+  }
+
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+      flex-wrap: wrap;
+      overflow: hidden;
+      margin-top: 0;
+      margin-bottom: auto;
+    }
+    .title {
+      font-size: 30px;
+      padding-top: 0px;
+      line-height: 120px;
+    }
+    .description {
+      font-size: 18px;
+      margin: 0 20px 0 35px;
+      span {
+        margin-top: 25px;
         font-size: 18px;
-        margin: 0 20px 0 35px;
-        span {
-          margin-top: 25px;
-          font-size: 18px;
-        }
-      }
-      p:last-of-type {
-        display: none;
-      }
-      p:first-of-type {
-        margin-top: -35px;
-      }
-      .img {
-        background-position: 530px bottom;
       }
     }
+    p:last-of-type {
+      display: none;
+    }
+    p:first-of-type {
+      margin-top: -35px;
+    }
+    .img{
+      width: 100%;
+      background-position: 530px bottom;
+      background-size:auto;
+      height: 696px;
+    }
   }
-}
