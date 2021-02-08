@@ -1,31 +1,38 @@
-@media (min-width: 1920px) {
-  .item {
-    text-transform: uppercase;
-  }
-
-  .item_font__typical {
-    color: white;
-  }
-
-  .item_font__special {
-    color: #bebebe;
-  }
-
-  .header_menu {
-    width: 610px;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .mobileMenu,
-.mobileMenu_hidden {
-    display: none;
-  }
+@font-face {
+  font-family: "NexaLight", sans-serif;
+  src: url("./font/NexaLight.otf");
+  font-weight: normal;
+  font-style: normal;
 }
-@media (min-width: 1920px) and (max-width: 1919px) and (min-width: 768px) {
+.item {
+  text-transform: uppercase;
+}
+
+.item_font__typical {
+  color: white;
+}
+
+.item_font__special {
+  font-family: "NexaLight", sans-serif;
+  letter-spacing: 0.1em;
+  color: #bebebe;
+}
+
+.header_menu {
+  width: 610px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.mobileMenu,
+.mobileMenu_hidden {
+  display: none;
+}
+
+@media (max-width: 1919px) and (min-width: 767px) {
   .header_menu {
     width: 590px;
   }
@@ -34,7 +41,7 @@
     display: none;
   }
 }
-@media (min-width: 1920px) and (max-width: 1919px) and (min-width: 768px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .item {
     display: none;
   }
